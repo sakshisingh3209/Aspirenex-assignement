@@ -1,0 +1,37 @@
+[{
+        "title": "Javascript",
+        "level": "Advanced",
+        "imageSrc": "skills/html.png"
+    },
+    {
+        "title": "React",
+        "level": "Intermediate",
+        "imageSrc": "skills/react.png"
+    },
+    {
+        "title": "HTML",
+        "level": "Expert",
+        "imageSrc": "skills/html.png"
+    }, {
+        "title": "Css",
+        "level": "Expert",
+        "imageSrc": "skills/css.png"
+    }, {
+        "title": "Node.js",
+        "level": "Expert",
+        "imageSrc": "skills/node.png"
+    },
+    {
+        "title": "MongoDB",
+        "level": "Expert",
+        "imageSrc": "skills/mongodb.png"
+    }, {
+        "title": "SQL",
+        "level": "Intermediate",
+        "imageSrc": "skills/html.png"
+    }, {
+        "title": "Java",
+        "level": "Expert",
+        "imageSrc": "skills/html.png"
+    }
+]

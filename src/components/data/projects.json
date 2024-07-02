@@ -1,0 +1,17 @@
+[{
+        "title": "Restful APIs BookStore System",
+        "imageSrc": "projects/project.png",
+        "description": "Developed a RESTful API for an online bookstore to manage books, search and filter by author/title, and handle orders and payments.",
+        "skills": ["Node.js", "Express", "MongoDB"],
+        "demo": "http://link-to-demo.com",
+        "source": "https://github.com/sakshisingh3209/bookStore"
+    },
+    {
+        "title": "Emotion Detection System",
+        "imageSrc": "projects/project.png",
+        "description": "Developed a system that detects human emotions using a live camera feed, analyzing facial expressions in real-time.",
+        "skills": ["Python", "OpenCV", "Numpy", "Pandas"],
+        "demo": "http://link-to-demo.com",
+        "source": "https://github.com/sakshisingh3209/bookStore"
+    }
+]

@@ -1,0 +1,98 @@
+@import "../../vars.css";
+
+/* Importing variables if needed */
+
+.skills {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.skillList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Space between items */
+    justify-content: center;
+    /* Center the list items */
+}
+
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    /* Ensure text wraps correctly */
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    flex: 1 0 21%;
+    /* Adjusted for better spacing */
+    max-width: 21%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+    /* Center text within items */
+}
+
+.skillItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.skillImage {
+    width: 40px;
+    /* Adjust size as needed */
+    height: 40px;
+    /* Adjust size as needed */
+    margin-bottom: 10px;
+    /* Add space between image and text */
+    border-radius: 50%;
+    /* Circular images */
+}
+
+
+/* Media Query for smaller screens */
+
+@media (max-width: 768px) {
+    .skills {
+        margin-top: 10px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .skillItem {
+        font-size: 16px;
+        flex: 1 0 45%;
+        /* Two items per row on smaller screens */
+        max-width: 45%;
+    }
+}
+
+
+/* Media Query for very small screens */
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 20px;
+    }
+    .skillItem {
+        font-size: 14px;
+        flex: 1 0 100%;
+        /* One item per row on very small screens */
+        max-width: 100%;
+    }
+}
